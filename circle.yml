@@ -1,6 +1,5 @@
-machine:
- java:
-   - version: openjdk-7-jdk
+general:
+  build_dir: src
 
 test:
  post:
