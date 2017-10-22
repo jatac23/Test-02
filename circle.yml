@@ -1,5 +1,8 @@
 general:
   build_dir: src
+  artifacts:
+     - $CIRCLE_TEST_REPORTS
+     - target
 
 test:
  post:
